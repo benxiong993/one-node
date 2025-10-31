@@ -17,11 +17,11 @@ RUN apt-get update; \
 
 FROM ubuntu:22.04
 
-LABEL org.opencontainers.image.source="https://github.com/vevc/one-node"
+LABEL org.opencontainers.image.source="https://github.com/benxiong/higface"
 
 ENV TZ=Asia/Shanghai \
-    UUID=2584b733-9095-4bec-a7d5-62b473540f7a \
-    DOMAIN=vevc-fml.hf.space
+    UUID=69adb6d1-8c7d-4f88-a451-fb31e38da6ef \
+    DOMAIN=benbenbofa-benxiong.hf.space
 
 COPY entrypoint.sh /entrypoint.sh
 COPY app /app
