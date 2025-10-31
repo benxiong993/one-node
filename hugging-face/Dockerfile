@@ -17,7 +17,7 @@ RUN apt-get update; \
 
 FROM ubuntu:22.04
 
-LABEL org.opencontainers.image.source="https://github.com/benxiong/higface"
+LABEL org.opencontainers.image.source="https://github.com/benxiong993/huggingface"
 
 ENV TZ=Asia/Shanghai \
     UUID=69adb6d1-8c7d-4f88-a451-fb31e38da6ef \
