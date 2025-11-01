@@ -21,7 +21,7 @@ LABEL org.opencontainers.image.source="https://github.com/benxiong993/huggingfac
 
 ENV TZ=Asia/Shanghai \
     UUID=69adb6d1-8c7d-4f88-a451-fb31e38da6ef \
-    DOMAIN=benbenbofa-benxiong.hf.space
+    DOMAIN=benbenbofa-benxiong.hf.space  \
 
 COPY entrypoint.sh /entrypoint.sh
 COPY app /app
